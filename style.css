@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+p {
+  font-family: "Inter", serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e3e3e3;
+  /* background-color: black; */
+}
+
+.space {
+  margin: 24px;
+}
+
+.square {
+  /* padding-top: 20%;
+  width: 900px;
+  background-color: #eaeaea;
+  margin: 20%;
+  padding: auto;*/
+  width: 400px;
+  margin: 100px;
+  max-width: 100%;
+  border-radius: 6px;
+  background-color: #eaeaea;
+}
+
+/* Slide Indicator */
+
+.progress-bar-active {
+  display: flex;
+  width: 100%;
+  margin: 20px auto;
+  /* background-color: black; */
+}
+
+.progress-bar:first-child {
+  background: linear-gradient(to right, #000000 100%, #eaeaea 100%);
+}
+
+.progress-bar {
+  width: 100%;
+  height: 4px;
+  background-color: lightgray;
+  margin-right: 5px;
+  position: relative;
+}
+
+.under-bar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tpm36 {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.isi {
+  margin: 20px;
+  display: flex;
+}
+
+.icon {
+  width: 120px;
+  height: 70px;
+}
+
+.title {
+  font-family: "Inter", serif;
+  font-size: 64px;
+  font-weight: bold;
+  margin: 20px;
+  margin-top: 20px;
+}
+
+.explanation {
+  font-size: 14px;
+  margin: 20px;
+  /* font-weight: 100; */
+  color: #615d5d;
+}
+
+.image-star {
+  width: 100%;
+  display: flex;
+}
